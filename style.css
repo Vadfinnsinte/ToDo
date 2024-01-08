@@ -19,7 +19,9 @@ body {
 	/* color: #343A34; */
 }
 .add-div {
-	text-align: end;
+	border: none;
+	background-color: #fce0ffd3;
+	/* text-align: end; */
 	margin: 0.5em;
 }
 .div-content {
@@ -41,7 +43,7 @@ body {
 	margin: 0.3em;
 	/* margin-top: 1em; */
 }
-.skapad-div button{
+.save-btn{
 	min-width: 4.5em;
 	font-weight: 400;
 }
@@ -50,7 +52,7 @@ body {
 	flex-direction: row;
 }
 .color1, .color2, .color3, .color4, .color5{
-	padding: 1em;
+	padding: 1.5em;
 	border-radius: 50%;
 	border: 2px solid black;
 	margin: 0.3em;
@@ -75,4 +77,11 @@ body {
 .color5 {
 	background-color: #FA66D9;
 
+}
+.color1:hover, .color2:hover, .color3:hover, .color4:hover, .color5:hover{
+	border: 3px solid black;
+	
+}
+.active-btn {
+	/* border: 3px solid black; */
 }
